@@ -1,0 +1,19 @@
+------------------------ git
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin url
+git push -u origin main
+------------------------setting.json
+{
+    "editor.indentSize": "tabSize",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "css.lint.unknownAtRules": "ignore"
+}
+------------------------
