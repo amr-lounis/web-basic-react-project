@@ -3,8 +3,7 @@ import { Captcha } from "@U/components/MyCaptcha";
 
 export default function PageHome() {
   return (
-    <div className="flex flex-col justify-center">
-
+    <div className="h-screen flex flex-col justify-center my-10">
       <hr></hr> {/* --------------------------------------------- */}
 
       <div className="flex justify-center  m-10">"PageHome"</div>
